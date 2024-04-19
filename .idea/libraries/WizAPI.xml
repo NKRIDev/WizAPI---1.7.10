@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WizAPI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/WizAPI_jar/WizAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
