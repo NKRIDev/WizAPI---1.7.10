@@ -1,10 +1,10 @@
 # WizAPI
-This is the Minecraft API (version: 1.8.8)
+This is the Minecraft API (version: 1.7.10)
 If you use it, and need help ask NKRI.
 
 ## What is WizAPI?
 
-WizAPI is a **minecraft api** mainly intended for *version 1.8.8*. This API contains already developed systems such as: titles, cooldowns, database management (MySQL). This little API simplifies the creation of plugins, you will no longer need to copy/paste your cooldown systems for example !
+WizAPI is a **minecraft api** mainly intended for *version 1.7.10*. This API contains already developed systems such as: titles, cooldowns, database management (MySQL). This little API simplifies the creation of plugins, you will no longer need to copy/paste your cooldown systems for example !
 
 ## How it works ?
 Do you want to integrate WizAPI into your project? That's great ! You will see, it's very simple:
