@@ -1,42 +1,45 @@
 package fr.nkri.wizapi.cooldowns;
 
 import fr.nkri.wizapi.utils.times.DurationFormatter;
+import org.bukkit.inventory.ItemStack;
 
 public class Cooldown {
 
-    private double time;
-    private Object obj;
+    private double delay;
+    private ItemStack stack;
+    private String cmd;
 
-    public Cooldown(final double time, final Object obj){
-        this.time = time;
-        this.obj = obj;
+    public Cooldown(final double delay, final ItemStack stack){
+        this.delay = delay;
+        this.stack = stack;
     }
 
-    public double getTime() {
-        return time;
+    public Cooldown(final double delay, final String cmd){
+        this.delay = delay;
+        this.cmd = cmd;
     }
 
-    public void setTime(double time) {
-        this.time = time;
+    public double getDelay() {
+        return delay;
     }
 
-    public Object getObj() {
-        return obj;
+    public void setDelay(double delay) {
+        this.delay = delay;
     }
 
-    public void setObj(Object obj) {
-        this.obj = obj;
+    public ItemStack getStack() {
+        return stack;
     }
 
-    public double getCooldownTime(){
-        return getTime();
+    public void setStack(ItemStack stack) {
+        this.stack = stack;
     }
 
-    public String getCooldownDate(){
-        return DurationFormatter.getDurationDate((long)getTime());
+    public String getCmd() {
+        return cmd;
     }
 
-    public String getCooldownWord(){
-        return DurationFormatter.getDurationWords((long)getTime());
+    public void setCmd(String cmd) {
+        this.cmd = cmd;
     }
 }
